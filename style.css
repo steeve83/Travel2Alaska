@@ -214,6 +214,41 @@ hr{
         text-align: center;
     }
 }
+/* Famous Quotes */
+#famous-quotes{
+    background-color: #fafafa;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#famous-quotes .portraits-photos{
+    border-radius: 50%;
+    border: 4px solid #2196f3;
+}
+#famous-quotes .portraits-photos:first-child{
+    margin-top: 20px;
+}
+#famous-quotes .quote{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0;
+}
+#famous-quotes .author{
+    margin: 20px auto;
+}
+#famous-quotes .author:last-child{
+    margin-bottom: 0;
+}
+@media(max-width: 1000px){
+  #famous-quotes .quote{
+      font-size: 18px;
+      padding: 0 20px;
+  }
+  #famous-quotes .author{
+      font-size: 14px;
+  }
+}
 
  /* Footer */
 footer{
